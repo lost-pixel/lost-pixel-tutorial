@@ -24,8 +24,8 @@ const MenuItem = ({ href, label }: { href: string; label: string }) => {
 
 export const Navigation = () => {
   return (
-    <nav className="bg-white shadow dark:bg-gray-800">
-      <div className="container mx-auto flex items-center justify-center p-6 capitalize text-gray-600 dark:text-gray-300">
+    <nav className=" bg-gray-800 shadow">
+      <div className="container mx-auto flex items-center justify-center p-6 capitalize  text-gray-300">
         <MenuItem href="/" label="home" />
         <MenuItem href="/pricing" label="pricing" />
       </div>
