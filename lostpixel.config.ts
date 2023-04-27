@@ -11,6 +11,6 @@ export const config: CustomProjectConfig = {
     ],
     baseUrl: "http://172.17.0.1:3000",
   },
-  lostPixelProjectId: "-----",
+  lostPixelProjectId: "clgzaxi3701vdju0e5ivbpcd8",
   apiKey: process.env.LOST_PIXEL_API_KEY,
 };
