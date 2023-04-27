@@ -1,13 +1,16 @@
 import { z } from "zod";
 
 import { createTRPCRouter, publicProcedure } from "~/server/api/trpc";
+import { monthlyPlans, yearlyPlans } from "../../../data/plans";
 
 export const exampleRouter = createTRPCRouter({
-  hello: publicProcedure
-    .input(z.object({ text: z.string() }))
+  plans: publicProcedure
+    .input(
+      z.object({
+        yearly: z.boolean(),
+      })
+    )
     .query(({ input }) => {
-      return {
-        greeting: `Hello ${input.text}`,
-      };
+      return input.yearly ? yearlyPlans : monthlyPlans;
     }),
 });
