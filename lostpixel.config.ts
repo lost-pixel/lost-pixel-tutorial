@@ -8,6 +8,7 @@ export const config: CustomProjectConfig = {
         path: "/pricing",
         name: "pricing",
       },
+      { path: "/cta", name: "cta" },
     ],
     baseUrl: "http://172.17.0.1:3000",
   },

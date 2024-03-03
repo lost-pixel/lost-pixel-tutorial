@@ -27,7 +27,8 @@
     "**/*.ts",
     "**/*.tsx",
     "**/*.cjs",
-    "**/*.mjs"
+    "**/*.mjs",
+    "./lostpixel.config.ts"
   ],
   "exclude": ["node_modules", "lostpixel.config.ts"]
 }
