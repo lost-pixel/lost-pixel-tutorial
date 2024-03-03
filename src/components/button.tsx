@@ -1,6 +1,7 @@
 type Props = {
   label: string;
   onClick?: () => unknown;
+  style?: React.CSSProperties;
 };
 
 export const Button = ({ label, onClick = () => null }: Props) => {
