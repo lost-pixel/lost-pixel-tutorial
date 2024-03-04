@@ -7,7 +7,7 @@ export const Home = () => {
 
   return (
     <Shell title="Home">
-      <main className="flex min-h-screen flex-col items-center justify-center bg-gray-900">
+      <main className="flex min-h-screen flex-col items-center justify-center bg-blue-600">
         <div className="container flex flex-col items-center justify-center gap-2 px-4 py-16 "></div>
         <h1 className="text-5xl font-extrabold tracking-tight text-white sm:text-[5rem]">
           CTA
